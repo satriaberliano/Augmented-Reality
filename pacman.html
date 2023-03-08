@@ -22,10 +22,11 @@
       
     <!-- Pac-man. -->
     <a-cylinder color="#fdff00" theta-start="130" theta-length="280" side="double" scale="0.5 0.5 0.5"></a-cylinder>
-    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="0.5 0 0"></a-sphere>
-    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="0.75 0 0"></a-sphere>
-    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="1 0 0"></a-sphere>
+    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="0.5 0 0" animation="property: position; from:0.5 0 0.05; to: 0.5 0 -0.05; easing: easeInOutSine; dur: 1000; loop: true; dir: alternate"></a-sphere>
+    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="0.75 0 0" animation="property: position; from:0.75 0 0.05; to: 0.75 0 -0.05; easing: easeInOutSine; dur: 1500; loop: true; dir: alternate"></a-sphere>
+    <a-sphere color="#fdff00" radius="0.75" scale="0.1 0.1 0.1" position="1 0 0" animation="property: position; from:1 0 0.05; to: 1 0 -0.05; easing: easeInOutSine; dur: 2000; loop: true; dir: alternate"></a-sphere>
     <a-circle color="black" scale="0.05 0.05 0.05" position="0.12 0.28 -0.3" rotation="-90 0 0"></a-circle>
+    <a-text value="Pacman :v" position="0 0.65 0.6" rotation="-90 0 0" color="black" align="center"></a-text>
 
     </a-marker>
     <a-entity camera></a-entity>
